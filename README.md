@@ -25,7 +25,7 @@ This project is made in the arduino ide.
 
 ## sample code (rickroll)
 
-```arduino
+```cpp
 #include <KeyboardAzertyFr.h>
 
 void setup() {
@@ -56,9 +56,7 @@ void setup() {
   fullScreen(); 
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
+void loop() {}
 
 void printStr(String str){
   for(int i = 0; i < str.length(); i++ ){
